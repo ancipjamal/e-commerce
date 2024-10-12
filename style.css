@@ -1,0 +1,155 @@
+*{
+    margin-left: 10px;
+    margin-right: auto;
+    box-sizing: border-box;
+    background-color: #f5f0e9;
+}
+.navbar section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    background-color: whitesmoke;
+}
+.logo{
+    height: 50px;
+    width: auto;
+}
+
+.navbar nav-links{
+
+list-style: none;
+display: flex;
+text-decoration: none;
+
+}
+.nav-links
+{
+    display: flex;
+    list-style-type: none;
+}
+.navbar .nav-links a{
+    color: gray;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar .nav-links a:hover{
+    color: #ff5722;
+}
+
+.girl{
+    display: flex;
+}
+.offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f0e9;
+    padding: 20px;
+    border-radius: 8px;
+    /* max-width: 900px; */
+    margin: 0 auto;
+    background-color: bisque;
+}
+.sub-div{
+    /* max-width: 50px; */
+}
+ h2{
+    font-size:23px ;
+    color: #ff5722;
+    margin-bottom: 20px;
+    align-content: center;
+    align-items: center;
+}
+.button{
+    display: inline-block;
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.filter-bar{
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    background-color: #f4f4f4;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.filter-bar select{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+
+}
+.sort by select{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+..sort by{
+    margin-left: auto;
+}
+.girl {
+    max-width: 400px;
+    border-radius: 8px;
+align-content: center;
+}
+@media (max-width:768px){
+    .offer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .sub-div, .girl{
+        max-width: 300px;
+    }
+    .girl img{
+        margin-top: 20px;
+    }
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.product{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+.product img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+.product h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+
+
+}
+.product p{
+    margin: 5px;
+
+}
+.button{
+    background-color: #228b22;
+    color: white;
+    
+}
+
